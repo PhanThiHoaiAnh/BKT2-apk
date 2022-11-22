@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SignUp">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_s_l"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnBack_ofSU"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="89dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="339dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="4dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:src="@drawable/fish"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="434dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="casual"
+        android:text="Create An Account"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="258dp">
+
+        <EditText
+            android:id="@+id/edtFull"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_signup"
+            android:drawableLeft="@drawable/ic_fullname"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint=" Full Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/log"
+            android:textColorHint="@color/log"
+            android:textSize="21dp" />
+
+        <EditText
+            android:id="@+id/edtUser_ofSU"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_signup"
+            android:drawableLeft="@drawable/ic_person"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint=" E-mail *"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/log"
+            android:textColorHint="@color/log"
+            android:textSize="21dp" />
+
+        <EditText
+            android:id="@+id/edtPass_ofSU"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border_signup"
+            android:drawableLeft="@drawable/ic_key"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint=" Password *"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="@color/log"
+            android:textColorHint="@color/log"
+            android:textSize="21dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox1_ofSU"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:checked="false"
+            android:text="Show"
+            android:textColor="#3C2467"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edtConPass_ofSU"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_signup"
+            android:drawableLeft="@drawable/ic_key"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint=" Confirm Password *"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textColor="@color/log"
+            android:textColorHint="@color/log"
+            android:textSize="21dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2_ofSU"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:checked="false"
+            android:text="Show"
+            android:textColor="#3C2467"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btn_signup_ofSU"
+            android:layout_width="345dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/log"
+            android:text="sign up"
+            app:cornerRadius="10dp" />
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----------------------"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----------------------"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login_ofSU"
+            android:layout_width="345dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/log"
+            android:text="log in"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+</RelativeLayout>

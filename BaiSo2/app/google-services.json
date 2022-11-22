@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030082684626",
+    "firebase_url": "https://baitap-bt-default-rtdb.firebaseio.com",
+    "project_id": "baitap-bt",
+    "storage_bucket": "baitap-bt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030082684626:android:d30b63731308d2daeb2f0b",
+        "android_client_info": {
+          "package_name": "com.example.baiso2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030082684626-1kgg5qfunea1t44pvis6n12kf44mvng8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlAUNc01719bUh-IZEM75WLTRWrS9IXNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030082684626-1kgg5qfunea1t44pvis6n12kf44mvng8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
